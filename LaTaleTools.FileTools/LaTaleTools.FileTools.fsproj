@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="SpfTools.fs" />
+        <Compile Include="TblTools.fs" />
+        <Compile Include="LdtTools.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LaTaleTools.LowLevel\LaTaleTools.LowLevel.csproj" />
+    </ItemGroup>
+
+</Project>

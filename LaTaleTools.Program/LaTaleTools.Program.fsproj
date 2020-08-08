@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Cli\SpfTool.fs" />
+        <Compile Include="Cli\TblTool.fs" />
+        <Compile Include="Cli\LdtTool.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Argu" Version="6.1.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LaTaleTools.FileTools\LaTaleTools.FileTools.fsproj" />
+      <ProjectReference Include="..\LaTaleTools.SqliteExportTools\LaTaleTools.SqliteExportTools.fsproj" />
+    </ItemGroup>
+
+</Project>

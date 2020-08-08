@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyName>LaTaleTools.SqliteExportTools</AssemblyName>
+        <RootNamespace>LaTaleTools.SqliteExportTools</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="SqliteExportTools.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
+      <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LaTaleTools.FileTools\LaTaleTools.FileTools.fsproj" />
+    </ItemGroup>
+
+</Project>

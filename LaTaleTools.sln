@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LaTaleTools.Program", "LaTaleTools.Program\LaTaleTools.Program.fsproj", "{3CF40B49-B73B-4F5C-9E0C-68567DB74289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaTaleTools.LowLevel", "LaTaleTools.LowLevel\LaTaleTools.LowLevel.csproj", "{BAA552A4-CA22-43C1-BA49-67436BB3DF9D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LaTaleTools.Utils", "LaTaleTools.Utils\LaTaleTools.Utils.fsproj", "{7595D3E7-442E-4C6F-B04A-DE66E182E4D8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LaTaleTools.FileTools", "LaTaleTools.FileTools\LaTaleTools.FileTools.fsproj", "{C067A735-BCCC-4581-BA20-377679E18DDA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LaTaleTools.FileToolsTests", "LaTaleTools.FileToolsTests\LaTaleTools.FileToolsTests.fsproj", "{2234F091-7F5C-4F24-ABDA-74A7E67D89A2}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LaTaleTools.SqliteExportTools", "LaTaleTools.SqliteExportTools\LaTaleTools.SqliteExportTools.fsproj", "{4CE74EDC-B689-436C-8EAE-1F6CB73612BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CF40B49-B73B-4F5C-9E0C-68567DB74289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF40B49-B73B-4F5C-9E0C-68567DB74289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF40B49-B73B-4F5C-9E0C-68567DB74289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF40B49-B73B-4F5C-9E0C-68567DB74289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA552A4-CA22-43C1-BA49-67436BB3DF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA552A4-CA22-43C1-BA49-67436BB3DF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA552A4-CA22-43C1-BA49-67436BB3DF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA552A4-CA22-43C1-BA49-67436BB3DF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7595D3E7-442E-4C6F-B04A-DE66E182E4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7595D3E7-442E-4C6F-B04A-DE66E182E4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7595D3E7-442E-4C6F-B04A-DE66E182E4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7595D3E7-442E-4C6F-B04A-DE66E182E4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C067A735-BCCC-4581-BA20-377679E18DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C067A735-BCCC-4581-BA20-377679E18DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C067A735-BCCC-4581-BA20-377679E18DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C067A735-BCCC-4581-BA20-377679E18DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2234F091-7F5C-4F24-ABDA-74A7E67D89A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2234F091-7F5C-4F24-ABDA-74A7E67D89A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2234F091-7F5C-4F24-ABDA-74A7E67D89A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2234F091-7F5C-4F24-ABDA-74A7E67D89A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE74EDC-B689-436C-8EAE-1F6CB73612BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE74EDC-B689-436C-8EAE-1F6CB73612BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE74EDC-B689-436C-8EAE-1F6CB73612BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE74EDC-B689-436C-8EAE-1F6CB73612BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
